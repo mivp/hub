@@ -1,6 +1,9 @@
 function(process_omegalib_modules)
 #>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> MODULE DEFINITION START
 
+module_def(tessterrain https://github.com/mivp/tessmodule.git
+  "Tess terrain")
+
 #--------------------------------------------------------------------------------
 # Third party support modules
 module_def(displaySystem_Equalizer https://github.com/omega-hub/displaySystem_Equalizer.git
